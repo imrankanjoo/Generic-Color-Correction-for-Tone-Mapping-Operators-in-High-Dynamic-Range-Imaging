@@ -47,15 +47,12 @@ The model's effectiveness can be evaluated using both objective and subjective m
 
 ![Color Corrected Masked Image](Images/color_corrected_masked_image.jpg)
 
-### Performance of CCMs
+### Psychophysical Performance of CCMs
 
 The performance of various color correction models was compared. The results indicated that CCz consistently outperformed other models in terms of natural color reproduction.
-
-![Performance Comparison of CCMs](Images/performance_comparison.png)
-
-## Psychophysical Evaluation
-
 A paired comparison based psychophysical experiment was conducted to test and compare the performance of CCz with other models. The results showed that CCz produced significantly better and more natural color reproduction for tone-mapped images.
+![Performance Comparison of CCMs](Images/Psychophysical-Performance-Comparison.jpg)
+
 
 ## Conclusions
 
