@@ -6,9 +6,9 @@ One of the significant challenges in tone mapping is to preserve the perceptual 
 
 ## Introduction
 
-The real-world luminance range can be mapped to the display luminance range using a variety of specialized TMOs. These TMOs compress the brighter parts while manipulating darker tones to appear brighter, which generally distorts the color contrast relationship. Most common TMOs focus on maintaining the ratios of the color channels and try to manipulate luminance, resulting in over-saturation of the tone-mapped image. 
+The real-world luminance range can be mapped to the display luminance range using a variety of specialized TMOs. These TMOs compress the brighter parts while manipulating darker tones to appear brighter, which generally distorts the color contrast relationship. Most common TMOs focus on maintaining the ratios of the color channels and try to manipulate luminance, resulting in over-saturation of the tone-mapped image.
 
-The proposed color correction model (CCz) aims to reproduce hue and chroma from the HDR image, preserving the lightness of the tone-mapped image. 
+The proposed color correction model (CCz) aims to reproduce hue and chroma from the HDR image, preserving the lightness of the tone-mapped image.
 
 ## Proposed Color Correction Model
 
@@ -33,23 +33,29 @@ The model's effectiveness can be evaluated using both objective and subjective m
 
 #### Example 1: Color Corrected Image
 
-![Color Corrected Image](Images/example1.png)
+![Color Corrected Image](Images/example1.jpg)
 
 #### Example 2: Color Corrected Image
 
-![Color Corrected Image](Images/example2.png)
+![Color Corrected Image](Images/example2.jpg)
 
 #### Example 3: Color Corrected Image
 
-![Color Corrected Image](Images/example3.png)
+![Color Corrected Image](Images/example3.jpg)
 
+#### Example 4: Masked Image
 
+![Masked Image](Images/masked_image.jpg)
+
+#### Example 5: Color Corrected Masked Image
+
+![Color Corrected Masked Image](Images/color_corrected_masked_image.jpg)
 
 ### Performance of CCMs
 
 The performance of various color correction models was compared. The results indicated that CCz consistently outperformed other models in terms of natural color reproduction.
 
-![Performance Comparison of CCMs](images/performance_comparison.png)
+![Performance Comparison of CCMs](Images/performance_comparison.png)
 
 ## Psychophysical Evaluation
 
@@ -57,7 +63,7 @@ A paired comparison based psychophysical experiment was conducted to test and co
 
 ## Conclusions
 
-A generic color correction model CCz was proposed to address the issues of color distortions in tone mapping. It utilizes CIECAM16 to compute perceptual correlates, providing a robust framework for more optimal color adaptation. 
+A generic color correction model CCz was proposed to address the issues of color distortions in tone mapping. It utilizes CIECAM16 to compute perceptual correlates, providing a robust framework for more optimal color adaptation.
 
 ## Acknowledgments
 
@@ -77,5 +83,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 2. J. Qiu, Z. Wang, and H. Huang, "High dynamic range image compression based on the multi-peak S-shaped tone curve," Optics Express 31, 9841-9853 (2023).
 3. K. Panetta, L. Kezebou, V. Oludare, S. Agaian, and Z. Xia, "Tmo-net: A parameter-free tone mapping operator using generative adversarial network, and performance benchmarking on large scale hdr dataset," IEEE Access 9, 39500-39517 (2021).
 4. I. Mehmood, X. Shi, M. U. Khan, and M. R. Luo, "Perceptual Tone Mapping Model for High Dynamic Range Imaging," IEEE Access (2023).
-5. A. Rana, P. Singh, G. Valenzise, F. Dufaux, N. Komodakis, and A. Smolic, "Deep tone mapping operator for high dynamic range images," IEEE Transactions on Image Processing 29, 1285-1298 (2019).
-
+5. A. Rana, P. Singh, G. Valenzise, F. Dufaux, N. Komodakis, and A. Smolic, "Deep tone mapping operator for high dynamic range images," IEEE Transactions on Image Processing (2019).
