@@ -66,10 +66,6 @@ The authors thank Dr. Mark Fairchild for providing the HDR image database and Dr
 
 Data underlying the results presented in this paper are available in Ref. [21].
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Cite
 
 Mehmood, I., Khan, M. U., & Luo, M. R. (2024). Generic color correction for tone mapping operators in high dynamic range imaging. Optics Express, 32(16), 27849-27866.
