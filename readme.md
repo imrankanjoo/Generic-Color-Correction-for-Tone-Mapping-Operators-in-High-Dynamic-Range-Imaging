@@ -1,12 +1,5 @@
 # Generic Color Correction for Tone Mapping Operators in High Dynamic Range Imaging
 
-**Authors:**  
-Imran Mehmood, Muhammad Usman Khan, Ming Ronnier Luo  
-**Affiliations:**  
-1. State Key Laboratory of Modern Optical Instrumentation, Zhejiang University, Hangzhou, China  
-2. Leeds Institute of Textiles and Colour, University of Leeds, Leeds, UK  
-**Contact:** [m.r.luo@zju.edu.cn](mailto:m.r.luo@zju.edu.cn)
-
 ## Abstract
 
 One of the significant challenges in tone mapping is to preserve the perceptual quality of the tone-mapped images. Traditional tone mapping operators (TMOs) compress the luminance of high dynamic range (HDR) images with little to no consideration of image color information, resulting in suboptimal colors. Existing color management algorithms require either manual parameter tuning or introduce lightness and hue shifts. This study aims to develop a color correction model in plausible agreement with the psychophysical phenomenon of color appearance perception for optimal color reproduction of tone-mapped images. The proposed model leverages CIECAM16 perceptual correlates, i.e., lightness, chroma, and hue. It is adaptive and entirely automatic, while preserving the lightness of the tone-mapped image and maintaining the hue from the HDR image. Moreover, it does not require any gamut mapping correction algorithm in natural color reproduction. The effectiveness of the model was validated using objective and subjective methods. The experiments revealed that the model achieved optimal color reproduction in terms of naturalness of the colors.
@@ -23,7 +16,7 @@ The input to the color correction model (CCM) comprises of tone-mapped image \(I
 
 ### Workflow
 
-![Workflow for the Proposed Color Correction](images/workflow.png)
+![Workflow for the Proposed Color Correction](Images/workflow.png)
 
 ### Steps
 
@@ -38,19 +31,19 @@ The input to the color correction model (CCM) comprises of tone-mapped image \(I
 
 The model's effectiveness can be evaluated using both objective and subjective methods. Below are some examples of the results obtained from our color correction model.
 
-#### Example 1: Tone Mapped Image
+#### Example 1: Color Corrected Image
 
-![Tone Mapped Image](images/tone_mapped_example.png)
+![Color Corrected Image](Images/example1.png)
 
 #### Example 2: Color Corrected Image
 
-![Color Corrected Image](images/color_corrected_example.png)
+![Color Corrected Image](Images/example2.png)
 
-### Comparison
+#### Example 3: Color Corrected Image
 
-| Original HDR Image | Tone Mapped Image | Color Corrected Image |
-|---------------------|-------------------|-----------------------|
-| ![Original HDR Image](images/original_hdr_example.png) | ![Tone Mapped Image](images/tone_mapped_example.png) | ![Color Corrected Image](images/color_corrected_example.png) |
+![Color Corrected Image](Images/example3.png)
+
+
 
 ### Performance of CCMs
 
