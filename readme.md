@@ -16,7 +16,7 @@ The input to the color correction model (CCM) comprises of tone-mapped image \(I
 
 ### Workflow
 
-![Workflow for the Proposed Color Correction](Images/workflow.png)
+![Workflow for the Proposed Color Correction](Images/workflow.jpg)
 
 ### Steps
 
@@ -43,11 +43,7 @@ The model's effectiveness can be evaluated using both objective and subjective m
 
 ![Color Corrected Image](Images/example3.jpg)
 
-#### Example 4: Masked Image
-
-![Masked Image](Images/masked_image.jpg)
-
-#### Example 5: Color Corrected Masked Image
+#### Example 4: Color Corrected of Masked Images
 
 ![Color Corrected Masked Image](Images/color_corrected_masked_image.jpg)
 
