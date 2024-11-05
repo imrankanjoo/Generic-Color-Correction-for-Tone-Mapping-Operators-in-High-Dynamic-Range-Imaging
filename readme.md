@@ -70,10 +70,6 @@ Data underlying the results presented in this paper are available in Ref. [21].
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## References
+## Cite
 
-1. N. Zhang, Y. Ye, Y. Zhao, X. Li, and R. Wang, "Fast and flexible stack‐based inverse tone mapping," CAAI Transactions on Intelligence Technology (2023).
-2. J. Qiu, Z. Wang, and H. Huang, "High dynamic range image compression based on the multi-peak S-shaped tone curve," Optics Express 31, 9841-9853 (2023).
-3. K. Panetta, L. Kezebou, V. Oludare, S. Agaian, and Z. Xia, "Tmo-net: A parameter-free tone mapping operator using generative adversarial network, and performance benchmarking on large scale hdr dataset," IEEE Access 9, 39500-39517 (2021).
-4. I. Mehmood, X. Shi, M. U. Khan, and M. R. Luo, "Perceptual Tone Mapping Model for High Dynamic Range Imaging," IEEE Access (2023).
-5. A. Rana, P. Singh, G. Valenzise, F. Dufaux, N. Komodakis, and A. Smolic, "Deep tone mapping operator for high dynamic range images," IEEE Transactions on Image Processing (2019).
+Mehmood, I., Khan, M. U., & Luo, M. R. (2024). Generic color correction for tone mapping operators in high dynamic range imaging. Optics Express, 32(16), 27849-27866.
