@@ -18,7 +18,7 @@ hdrImgName='Flamingo.hdr';
 hdrImg=hdrread(hdrImgName);
 hdrImg=double(hdrImg);
 
-tmoImgName='Flamingo_Meylan.jpg';
+tmoImgName='Flamingo_Meylan.png';
 tmoImg=imread(tmoImgName);
 tmoImg=double(tmoImg)./255;
 
@@ -32,7 +32,7 @@ imgTCz=CCz_RGB(hdrImg, tmoImg, cond);
 %% save sRGB images
 figure,imshow([tmoImg imgTCz] ,'border','tight')
 savestr=[savePath  tmoImgName '_CCz.jpg'];
-imwrite(imgTCzG,savestr)
+imwrite(imgTCz,savestr)
 
 
 
